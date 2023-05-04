@@ -16,10 +16,10 @@ body{
     top:50%;
     left:50%;
     transform: translate(-50% , -50%);
-    padding:30px 80px;
+    padding:30px 85px;
 }
 #form{
-    margin: 40px;
+    margin: 35px;
 
 }
 label{
@@ -28,11 +28,29 @@ label{
 p.joingit,h2{
     text-align: center;
 }
+p.joingit{
+    color:rgb(166, 164, 164); 
+}
+p,label{
+    color:rgb(91, 89, 89);
+}
+h2,h4{
+    color:rgb(58, 58, 58);
+}
+a{
+    color:rgb(44, 162, 247);
+    text-decoration: none;
+}
 input.textbox{
+    box-sizing: border-box;
     width:100%;
     border: 1px solid rgb(193, 189, 189);
     border-radius: 5px;
-    height:20px;
+    height:26px;
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 40px;
+    padding-right:40px;
 }
 button{
     text-align: center;
@@ -44,5 +62,12 @@ button{
     color: white;
 }
 .red_asteric{
-    color:red;
+    color:rgb(249, 64, 64);
+    font-size: small;
+}
+.chars{
+    font-size: 13px;
+}
+.createacc{
+    font-size: small;
 }
