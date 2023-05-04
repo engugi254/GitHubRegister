@@ -34,3 +34,11 @@ input.textbox{
     border-radius: 5px;
     height:20px;
 }
+button{
+    text-align: center;
+    width: 100px;
+    background-color: lightgreen;
+}
+.red_asteric{
+    color:red;
+}
