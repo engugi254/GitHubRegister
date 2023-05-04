@@ -36,8 +36,12 @@ input.textbox{
 }
 button{
     text-align: center;
-    width: 100px;
-    background-color: lightgreen;
+    width: 100%;
+    background-color: rgb(185, 249, 185);
+    padding: 10px;
+    border-radius: 10px;
+    border:none;
+    color: white;
 }
 .red_asteric{
     color:red;
